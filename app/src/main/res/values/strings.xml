@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mobile App</string>
+
+    <!-- Login Strings -->
+    <string name="login_title">Welcome!</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_buttontext">Login</string>
+    <string name="login_invalidpassword">Invalid Password</string>
+    <string name="login_invalidlogin">Invalid Username</string>
+
+    <!-- Homepage Strings -->
+
+</resources>
