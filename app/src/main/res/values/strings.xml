@@ -8,6 +8,10 @@
     <string name="login_buttontext">Login</string>
     <string name="login_invalidpassword">Invalid Password</string>
     <string name="login_invalidlogin">Invalid Username</string>
+    <string name="home_loggedText">Você está logado.</string>
+    <string name="home_voltar">Voltar a Tela Anterior</string>
+    <string name="home_lerPoema">Mostrar um Poema</string>
+    <string name="poema_botaoHome">Tela Inicial</string>
 
     <!-- Homepage Strings -->
 
