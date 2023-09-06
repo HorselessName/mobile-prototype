@@ -12,6 +12,7 @@
     <string name="home_voltar">Voltar a Tela Anterior</string>
     <string name="home_lerPoema">Mostrar um Poema</string>
     <string name="poema_botaoHome">Tela Inicial</string>
+    <string name="crashButton">Crashar Aplicativo</string>
 
     <!-- Homepage Strings -->
 
