@@ -6,18 +6,14 @@ Um protótipo de um aplicativo mobile utilizado para estudos e pesquisa, com fun
 
 ## Componentes do Software
 
-### Activities
+### Telas e Fluxo das Telas
 
-- Main Activity
-    - Navigation Bar
-    - Fragment Container
-
-### Fragments
-
-- Fragment Container
-    - Login
-    - Settings
-    - About
+- Main Activity: Tela de Login
+	- Ao fazer login, vai pra activity "Home" (Exercício Tela de Login)
+ - Home Activity:
+ 	- Possui a implementação que vai para outra tela (Exercício Ciclo de Vida)
+  - Poema Activity:
+  	- Possui a implementação de voltar a tela inicial (Exercício Ciclo de Vida)
 
 ### TODO Items
 
@@ -27,7 +23,11 @@ Items pendentes que precisam ser feitos no projeto.
 
 - [ ] Remover componentes de teste.
 - [ ] Reestruturar os componentes, concluindo os sub-items abaixo
-  - [ ] Main Activity: 
+  - [ ] Main Activity (Tela de Login): 
 	- Tela de Login, não vai mostrar outras telas.
-  - [ ] LoggedUser Activity:
-	- Vai renderizar a navbar com os fragments que só vão aparecer se usuário logado.
+  	- Implementar Criptografia de Senha na Tela de Login
+   	- CRUD de Login/Senha com alguma persistencia de dados
+    	- Integração de Login com a Conta do Google.
+  - [ ] Poema Activity:
+	- Implementar CicleView com lista de poemas.
+  	- Implementar botão de crash com Analytics e CrashLytics.
