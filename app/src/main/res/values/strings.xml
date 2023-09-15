@@ -3,8 +3,8 @@
 
     <!-- Login Strings -->
     <string name="login_title">Welcome!</string>
-    <string name="login_username">Username</string>
-    <string name="login_password">Password</string>
+    <string name="login_username">User: admin</string>
+    <string name="login_password">Password: 123</string>
     <string name="login_buttontext">Login</string>
     <string name="login_invalidpassword">Invalid Password</string>
     <string name="login_invalidlogin">Invalid Username</string>
@@ -13,7 +13,7 @@
     <string name="home_lerPoema">Mostrar um Poema</string>
     <string name="poema_botaoHome">Tela Inicial</string>
     <string name="crashButton">Crashar Aplicativo</string>
-
-    <!-- Homepage Strings -->
+    <string name="textoPoema">Não vou te mostrar um poema.
+        \nAo invés disto, vou te mostrar uma lista de compras.</string>
 
 </resources>
