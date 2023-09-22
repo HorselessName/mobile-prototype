@@ -27,5 +27,6 @@ class Poema : AppCompatActivity() {
             Item("Cebola")
         )
 
+        // TODO: Inserir Fragmento que é a ReciclerViewer nesta Activity.
     }
 }
