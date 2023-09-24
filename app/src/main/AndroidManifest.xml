@@ -12,10 +12,10 @@
         android:theme="@style/Theme.MobileApp"
         tools:targetApi="31">
         <activity
-            android:name=".Poema"
+            android:name=".telas.poema.PoemaActivity"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".telas.paginaInicial.Home"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

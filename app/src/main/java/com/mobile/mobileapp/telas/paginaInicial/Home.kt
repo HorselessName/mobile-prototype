@@ -1,9 +1,11 @@
-package com.mobile.mobileapp
+package com.mobile.mobileapp.telas.paginaInicial
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.mobile.mobileapp.R
+import com.mobile.mobileapp.telas.poema.PoemaActivity
 
 class Home : AppCompatActivity() {
     private var usuarioEstaLogado = true
@@ -18,7 +20,7 @@ class Home : AppCompatActivity() {
         // Defina um ouvinte de clique para o botão
         botaoLerPoema.setOnClickListener {
             // Crie uma Intent para iniciar a atividade Poema.kt
-            val intent = Intent(this, Poema::class.java)
+            val intent = Intent(this, PoemaActivity::class.java)
 
             // Inicie a atividade usando a Intent
             startActivity(intent)

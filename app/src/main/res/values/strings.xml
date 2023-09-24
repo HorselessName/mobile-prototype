@@ -15,5 +15,11 @@
     <string name="crashButton">Crashar Aplicativo</string>
     <string name="textoPoema">Não vou te mostrar um poema.
         \nAo invés disto, vou te mostrar uma lista de compras.</string>
+    <string name="texto_listaCompras">Lista de Itens na Lista de Compras</string>
+    <string name="texto_botaoExpandirItem">Descrição</string>
+
+    <string name="nome_do_item">Nome do Item</string>
+    <string name="expandir_descricao">Expandir Descrição</string>
+    <string name="descricao_do_item">Descrição do Item</string>
 
 </resources>

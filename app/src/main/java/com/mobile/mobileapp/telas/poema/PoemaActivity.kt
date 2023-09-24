@@ -1,11 +1,13 @@
-package com.mobile.mobileapp
+package com.mobile.mobileapp.telas.poema
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.mobile.mobileapp.R
 import com.mobile.mobileapp.models.Item
+import com.mobile.mobileapp.telas.poema.fragments.listaCompras.ComprasListFragment
 
-class Poema : AppCompatActivity() {
+class PoemaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_poema)
@@ -19,14 +21,10 @@ class Poema : AppCompatActivity() {
             finish()
         }
 
-        // Definir meu DataSet pra ser renderizado pelo RecicleView (Gerador de Listas)
-        var listadefrutas = mutableListOf(
-            Item("Batata"),
-            Item("Abacate"),
-            Item("Cenoura"),
-            Item("Cebola")
-        )
-
-        // TODO: Inserir Fragmento que é a ReciclerViewer nesta Activity.
+        // Inserir o fragmento para dentro da FragmentContainerView usando o FragmentManager
+        val comprasListFragment = ComprasListFragment()
+        supportFragmentManager.beginTransaction()
+            .add(R.id.comprasListFragmentView, comprasListFragment)
+            .commit()
     }
 }
