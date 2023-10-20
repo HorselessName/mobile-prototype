@@ -22,7 +22,7 @@ class PoemaActivity : AppCompatActivity() {
             // Chame o método finish() para encerrar a atividade
             finish()
         }
-
+        
         // TODO: Adicionar um Fragmento na Activity Poema.
         // Passo 1 - Criar o Objeto Controller do tipo supportFragmentManager
         val fragmentManager: FragmentManager = supportFragmentManager
@@ -35,5 +35,8 @@ class PoemaActivity : AppCompatActivity() {
 
         // Passo 4 - Comitar as alteracoes na atividade usando o método commit do Transaction
         transaction.commit()
+
+        // TODO: https://www.geeksforgeeks.org/how-to-implement-recylerview-in-a-fragment-in-android/
+
     }
 }
