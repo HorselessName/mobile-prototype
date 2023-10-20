@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.mobile.mobileapp.R
-import com.mobile.mobileapp.models.Item
-import com.mobile.mobileapp.telas.poema.fragments.listaCompras.ComprasListFragment
 
 class PoemaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,10 +19,6 @@ class PoemaActivity : AppCompatActivity() {
             finish()
         }
 
-        // Inserir o fragmento para dentro da FragmentContainerView usando o FragmentManager
-        val comprasListFragment = ComprasListFragment()
-        supportFragmentManager.beginTransaction()
-            .add(R.id.comprasListFragmentView, comprasListFragment)
-            .commit()
+        // TODO: https://www.geeksforgeeks.org/how-to-implement-recylerview-in-a-fragment-in-android/
     }
 }
