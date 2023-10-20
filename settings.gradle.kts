@@ -12,5 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Mobile App"
-include ':app'
+
+rootProject.name = "Ficha de RPG"
+include(":app")
+ 
