@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "274922762735",
+    "project_id": "dados-ficha-rpg",
+    "storage_bucket": "dados-ficha-rpg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274922762735:android:a88206be415151888a461a",
+        "android_client_info": {
+          "package_name": "com.mobile.ficharpg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274922762735-q249cqv4hflr0god6hmfemjf5hubfrtv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.ficharpg",
+            "certificate_hash": "7a79e3a6a341698de3b871805c5d36761c84c582"
+          }
+        },
+        {
+          "client_id": "274922762735-4vaqhmj9s8coekeir49n8dsra88juanm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIL2pmtWAt6ffbDhfxsLVf6DQm7RdmjGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274922762735-4vaqhmj9s8coekeir49n8dsra88juanm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
