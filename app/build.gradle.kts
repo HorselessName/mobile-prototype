@@ -60,16 +60,28 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     //noinspection GradleDependency
     implementation("androidx.activity:activity-compose:1.7.0")
+
+    // Compose and Preview UIs.
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.ui:ui-tooling")
     implementation("androidx.compose.ui:ui-tooling-preview")
+
+    // Material 3 Design - 1.9 Avoids compile error
     implementation("androidx.compose.material3:material3")
-    implementation("androidx.appcompat:appcompat:1.6.1")
     //noinspection GradleDependency
     implementation("com.google.android.material:material:1.9.0")
+
+    // Use AppCompatActivity for Material3 Design
+    implementation("androidx.appcompat:appcompat:1.6.1")
+
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+
+    // Debugging Dependencies
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-tooling-preview")
 
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
